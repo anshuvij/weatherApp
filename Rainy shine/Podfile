@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.0'
+
+target 'Rainy shine' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for Rainy shine
+  pod 'Alamofire', '~> 4.7'
+
+  target 'Rainy shineTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Alamofire', '~> 4.7'
+  end
+
+  target 'Rainy shineUITests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Alamofire', '~> 4.7'
+  end
+
+end
